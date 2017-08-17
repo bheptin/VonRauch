@@ -44,6 +44,7 @@ header.carousel .fill {
   text-align: center;
   font-family: 'Shadows Into Light', cursive;
   height: 60%;
+  padding-bottom: 30px;
 }
 
 #map {

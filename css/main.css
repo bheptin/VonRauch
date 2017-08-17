@@ -2,14 +2,14 @@
 html,
 body {
     height: 100%;
-
 }
 
 body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  background-color: #222;
+    /*padding-top: 50px; Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 .navbar {
-  
+
 }
 
 .img-portfolio {
@@ -40,8 +40,22 @@ header.carousel .fill {
 }
 
 .belowFold {
-  height: 300px;
+  display: inline;
+  font-family: 'Shadows Into Light', cursive;
+  color: grey;
+  text-align: center;
+  border-bottom: solid;
+  border-color: grey;
+  border-width: thick;
 }
+
+#map {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 30px;
+      }
 
 /* 404 Page Styles */
 
